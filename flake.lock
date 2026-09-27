@@ -1,0 +1,179 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "kingstvis": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs",
+        "nixpkgs-old": "nixpkgs-old",
+        "ws281x": "ws281x"
+      },
+      "locked": {
+        "path": "./kingstvis",
+        "type": "path"
+      },
+      "original": {
+        "path": "./kingstvis",
+        "type": "path"
+      },
+      "parent": []
+    },
+    "kitten-space-agency": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_3"
+      },
+      "locked": {
+        "path": "./kitten-space-agency",
+        "type": "path"
+      },
+      "original": {
+        "path": "./kitten-space-agency",
+        "type": "path"
+      },
+      "parent": []
+    },
+    "nixpkgs": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1790444727,
+        "narHash": "sha256-Nnoep/dYKJkkKpJ4Fs9z4FtXR3New+xrSPpCHNM8skQ=",
+        "owner": "numtide",
+        "repo": "nixpkgs-unfree",
+        "rev": "b6c2c884f246e41bb0726275c334c921f62d6d27",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs-unfree",
+        "type": "github"
+      }
+    },
+    "nixpkgs-old": {
+      "locked": {
+        "lastModified": 1659446231,
+        "narHash": "sha256-hekabNdTdgR/iLsgce5TGWmfIDZ86qjPhxDg/8TlzhE=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "eabc38219184cc3e04a974fe31857d8e0eac098d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-21.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1790323409,
+        "narHash": "sha256-VVTPf+Hyd5ebpjBMHmrLMSBIeW6ls48Bqtosj7CNKLA=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e94cb152ed51bd6e24eb4a41f1460252beb52cd2",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_3": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_4"
+      },
+      "locked": {
+        "lastModified": 1790444727,
+        "narHash": "sha256-Nnoep/dYKJkkKpJ4Fs9z4FtXR3New+xrSPpCHNM8skQ=",
+        "owner": "numtide",
+        "repo": "nixpkgs-unfree",
+        "rev": "b6c2c884f246e41bb0726275c334c921f62d6d27",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs-unfree",
+        "type": "github"
+      }
+    },
+    "nixpkgs_4": {
+      "locked": {
+        "lastModified": 1790323409,
+        "narHash": "sha256-VVTPf+Hyd5ebpjBMHmrLMSBIeW6ls48Bqtosj7CNKLA=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e94cb152ed51bd6e24eb4a41f1460252beb52cd2",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "kingstvis": "kingstvis",
+        "kitten-space-agency": "kitten-space-agency"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "ws281x": {
+      "inputs": {
+        "nixpkgs": [
+          "kingstvis",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1789040844,
+        "narHash": "sha256-xDPizKDknys4A5lmF8y0ClXmHqQDnBZ2IXmkJ7KDlnk=",
+        "ref": "refs/heads/main",
+        "rev": "d90c10f0eec4fb74781712198b346318f4d11fc6",
+        "revCount": 1,
+        "type": "git",
+        "url": "ssh://git@github.com/mergmann/ws281x-kingst"
+      },
+      "original": {
+        "type": "git",
+        "url": "ssh://git@github.com/mergmann/ws281x-kingst"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
