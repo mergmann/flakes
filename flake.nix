@@ -2,8 +2,9 @@
   inputs = {
     kingstvis.url = "path:./kingstvis";
     kitten-space-agency.url = "path:./kitten-space-agency";
-    photocraft.url = "path:./photocraft";
     filmcraft.url = "path:./filmcraft";
+    gridcraft.url = "path:./gridcraft";
+    photocraft.url = "path:./photocraft";
   };
 
   outputs =
